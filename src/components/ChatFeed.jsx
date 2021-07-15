@@ -33,7 +33,7 @@ const ChatFeed = (props) => {
         })
     }
 
-    if(!chat) return 'Loading...'; {/*connected to line 40 */}
+    if(!chat) return 'Loading...'; {/*connected to line 40*/}
 
     return(
         <div className='chat-feed'>
