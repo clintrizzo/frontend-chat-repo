@@ -1,7 +1,4 @@
 import { ChatEngine } from 'react-chat-engine';
-import MessageForm from './MessageForm';
-import MyMessage from './MyMessage';
-import TheirMessgae from './TheirMessage';
 import ChatFeed from './components/ChatFeed';
 import './App.css';
 
