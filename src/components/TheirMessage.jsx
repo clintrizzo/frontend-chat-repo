@@ -15,10 +15,10 @@ const TheirMessage = ({ lastMessage, message}) => {
                     src={message.attachments[0].file} /*setting up image */
                     alt='message-attachment'
                     className='message-image'
-                    style={{float:'right'}}
+                    style={{marginLeft: isFirstMessageByUser ? '4px' : '48px'}}
                 />
             ) : (
-                <div className='messgage' style={{float:'right', marginRight: '18px', color:'white', backgroundColor:'#3B2A50'}}>
+                <div className='messgage' style={{float:'left', backgroundColor:'#CABCDC', marginLeft: isFirstMessageByUser ? '4px' : '48px'}}>
                     {message.text} {/*else statement for if message is not an image */}
                 </div>
             )
