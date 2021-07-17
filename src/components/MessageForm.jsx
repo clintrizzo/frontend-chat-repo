@@ -13,7 +13,7 @@ const MessageForm = (props) => {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault();/*setting up browser for refresh*/
 
     const text = value.trim();
 
@@ -25,11 +25,11 @@ const MessageForm = (props) => {
   };
 
   const handleUpload = (event) => {
-    sendMessage(creds, chatId, { files: event.target.files, text: '' });
+    sendMessage(creds, chatId, { files: event.target.files, text: '' }); /*image upload*/
   };
 
   return (
-    <form className="message-form" onSubmit={handleSubmit}>
+    <form className="message-form" onSubmit={handleSubmit}> /*text box*/
       <input
         className="message-input"
         placeholder="Send a message..."
@@ -39,7 +39,7 @@ const MessageForm = (props) => {
       />
       <label htmlFor="upload-button">
         <span className="image-button">
-          <PictureOutlined className="picture-icon" />
+          <PictureOutlined className="picture-icon" /> /*picture icon from @ant-design/icons*/
         </span>
       </label>
       <input
@@ -47,10 +47,10 @@ const MessageForm = (props) => {
         multiple={false}
         id="upload-button"
         style={{ display: 'none' }}
-        onChange={handleUpload.bind(this)}
+        onChange={handleUpload.bind(this)} /*handling the uploading of an image*/
       />
       <button type="submit" className="send-button">
-        <SendOutlined className="send-icon" />
+        <SendOutlined className="send-icon" /> /*send icon from @ant-design/icons*/
       </button>
     </form>
   );
