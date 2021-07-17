@@ -29,7 +29,7 @@ const MessageForm = (props) => {
   };
 
   return (
-    <form className="message-form" onSubmit={handleSubmit}> /*text box*/
+    <form className="message-form" onSubmit={handleSubmit}> {/*text box*/}
       <input
         className="message-input"
         placeholder="Send a message..."
@@ -39,7 +39,7 @@ const MessageForm = (props) => {
       />
       <label htmlFor="upload-button">
         <span className="image-button">
-          <PictureOutlined className="picture-icon" /> /*picture icon from @ant-design/icons*/
+          <PictureOutlined className="picture-icon" /> {/*picture icon from @ant-design/icons*/}
         </span>
       </label>
       <input
@@ -48,9 +48,9 @@ const MessageForm = (props) => {
         id="upload-button"
         style={{ display: 'none' }}
         onChange={handleUpload.bind(this)} /*handling the uploading of an image*/
-      />
+      /> 
       <button type="submit" className="send-button">
-        <SendOutlined className="send-icon" /> /*send icon from @ant-design/icons*/
+        <SendOutlined className="send-icon" /> {/*send icon from @ant-design/icons*/}
       </button>
     </form>
   );
