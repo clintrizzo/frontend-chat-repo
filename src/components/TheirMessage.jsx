@@ -6,7 +6,7 @@ const TheirMessage = ({ lastMessage, message }) => {
         {isFirstMessageByUser && (
           <div
             className="message-avatar"
-            style={{ backgroundImage: message.sender && `url(${message.sender.avatar})` }}
+            style={{ backgroundImage: message.sender && `url(${message.sender.avatar})` }} /*image from senders account */
           />
         )}
         {message.attachments && message.attachments.length > 0 /*seeing if the message is an image or text*/
