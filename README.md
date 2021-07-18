@@ -22,7 +22,7 @@ The user information is saved through local storage at the moment. However insid
  
 
 ## Images
-<img src="images/login.jpg" width="270" height="250" margin-left="20px"> <img src="images/chatbox.jpg" width="270" height="250">
+<img src="./Images/login.jpg" width="270" height="250" margin-left="20px"> <img src="./Images/chatbox.jpg" width="270" height="250">
 
 
 ## Sources
