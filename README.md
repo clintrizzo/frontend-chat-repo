@@ -3,7 +3,7 @@ A complete frontend project where the user can create a chat area with his or he
 The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like.
 <br></br>
 Deployed Link:
-[Deployed-site](https://microsoftchatbox.herokuapp.com/)
+[Deployed-site](https://chat-box-4rcklawlr-clintrizzo.vercel.app/)
 
 ## :bookmark_tabs: Table of Contents
 * [Languages-used](#Languages-used)
