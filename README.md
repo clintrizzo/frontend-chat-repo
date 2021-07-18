@@ -1,6 +1,8 @@
 # Chat Box (Microsoft Teams Clone)
 A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. 
 The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like.
+Deployed Link:
+[Deployed-site](https://microsoftchatbox.herokuapp.com/)
 
 ## :bookmark_tabs: Table of Contents
 * [Languages-used](#Languages-used)
