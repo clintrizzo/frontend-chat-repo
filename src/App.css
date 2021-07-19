@@ -1,12 +1,11 @@
 /* CHAT STYLES */
 * {
-    font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.5px;
   }
   
 /*chatroom background color*/
   .ce-chats-container {
-    background-color: rgba(202, 188, 188, 0.897) !important;
+    background-color: #f0f0f0 !important;
   }
   
   /*the active card that people are messaging in*/
@@ -15,11 +14,13 @@
     border: 4px solid #c3c1c7 !important;
     border-radius: 20px !important;
     margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
-  /*My chats area*/
+  /*chatarea*/
   .ce-chat-form-container {
     padding-bottom: 15px !important;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   /*mychat information*/
@@ -27,6 +28,7 @@
     border-radius: 10px !important;
     border: 2.5px solid #343236 !important;
     margin-bottom: 7px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   /*button design for adding a new conversation*/
