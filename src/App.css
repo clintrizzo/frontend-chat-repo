@@ -1,41 +1,38 @@
 /* CHAT STYLES */
 * {
-    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.5px;
   }
   
-  .ce-chat-list {
-    background-color: rgb(240, 240, 240) !important;
-  }
-  
+/*chatroom background color*/
   .ce-chats-container {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: rgba(202, 188, 188, 0.897) !important;
   }
   
+  /*the active card that people are messaging in*/
   .ce-active-chat-card {
-    background-color: #cabcdc !important;
-    border: 4px solid #cabcdc !important;
-    border-radius: 0px !important;
+    background-color: #f0f0f0 !important;
+    border: 4px solid #c3c1c7 !important;
+    border-radius: 20px !important;
+    margin-top: 5px;
   }
   
-  .ce-chat-subtitle-text {
-    color: #595959 !important;
-  }
-  
+  /*My chats area*/
   .ce-chat-form-container {
-    padding-bottom: 20px !important;
+    padding-bottom: 15px !important;
   }
   
+  /*mychat information*/
   .ce-text-input {
-    border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border-radius: 10px !important;
+    border: 2.5px solid #343236 !important;
+    margin-bottom: 7px;
   }
   
+  /*button design for adding a new conversation*/
   .ce-primary-button {
-    border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    border-radius: 10px !important;
+    background-color: #9a9a9b !important;
     position: relative;
     bottom: 1px;
   }
